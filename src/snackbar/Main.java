@@ -35,7 +35,7 @@ public class Main {
         // Print Customer 2 (Bob) Cash on Hand.
         System.out.println(ppl2.getFname() + "cash on hand is" + ppl2.buySnacks(soda.getCost() * 2));
         // Print quantity of snack 4 (Soda).
-        System.out.println("Quantity of soda is " + pretzel.buySnack(2));
+        System.out.println("Quantity of soda is " + soda.buySnack(2));
 
         // Customer 1 (Jane) finds $10.
         // Print Customer 1 (Jane) Cash on Hand.
@@ -45,7 +45,7 @@ public class Main {
         // Print Customer 1 (Jane) Cash on Hand.
         System.out.println(ppl1.getFname() + "cash on hand is" + ppl1.buySnacks(chocolate.getCost()));
         // Print quantity of snack 2 (Chocolate Bar).
-        System.out.println("Quantity of chocolate is " + chocolate.buySnack(2));
+        System.out.println("Quantity of chocolate is " + chocolate.buySnack(1));
 
         // Add 12 more items to snack 3 (Pretzel).
         // Print quantity of snack 3 (Pretzel).

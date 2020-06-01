@@ -55,11 +55,11 @@ public class Snack {
 
     // other methods
     public int addQuantity(int addedQuantity) {
-        return quantity + addedQuantity;
+        return quantity = quantity + addedQuantity;
     }
 
     public int buySnack(int boughtSnack) {
-        return quantity - boughtSnack;
+        return quantity = quantity - boughtSnack;
     }
 
     public String totalCost(int newQuantity) {

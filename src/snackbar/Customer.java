@@ -53,11 +53,11 @@ public class Customer {
     }
 
     public double addCash(int addedMoney) {
-        return cash + addedMoney;
+        return cash = cash + addedMoney;
     }
 
     public double buySnacks(double totalCost) {
-        return cash - totalCost;
+        return cash = cash - totalCost;
     }
 
 }
