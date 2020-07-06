@@ -6,11 +6,11 @@ public class Snack {
 
     private int id;
     private String name;
-    private int quantity;
+    private double quantity;
     private double cost;
     private int vendingMachineId;
 
-    public Snack(String name, int quantity, double cost, int vendingMachineId) {
+    public Snack(String name, double quantity, double cost, int vendingMachineId) {
         maxId++;
         id = maxId;
         this.name = name;
@@ -36,7 +36,7 @@ public class Snack {
         return vendingMachineId;
     }
 
-    public int quantity() {
+    public double quantity() {
         return quantity;
     }
 
@@ -54,15 +54,15 @@ public class Snack {
     }
 
     // other methods
-    public int addQuantity(int addedQuantity) {
-        return quantity = quantity + addedQuantity;
+    public int addQuantity(double addedQuantity) {
+        return (int) (quantity = quantity + addedQuantity);
     }
 
-    public int buySnack(int boughtSnack) {
-        return quantity = quantity - boughtSnack;
+    public int buySnack(double boughtSnack) {
+        return (int) (quantity = quantity - boughtSnack);
     }
 
-    public String totalCost(int newQuantity) {
+    public String totalCost(double newQuantity) {
         return "Total Cost is " + newQuantity * cost;
     }
 }
