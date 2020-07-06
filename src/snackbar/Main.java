@@ -57,6 +57,33 @@ public class Main {
         // Print quantity of snack 3 (Pretzel).
         System.out.println("Quantity of soda is " + pretzel.buySnack(3));
 
+        // Stretch goals
+        System.out.println("STRETCH GOALS START HERE");
+        System.out.println("Snack: " + chips.getName());
+        System.out.println("Vending Machine: " + Food.getName());
+        System.out.println("Quantity: " + chips.quantity());
+        System.out.println("Total Cost : " + chips.totalCost(chips.quantity()));
+
+        System.out.println("Snack: " + chocolate.getName());
+        System.out.println("Vending Machine: " + Food.getName());
+        System.out.println("Quantity: " + chocolate.quantity());
+        System.out.println("Total Cost : " + chocolate.totalCost(chocolate.quantity()));
+
+        System.out.println("Snack: " + pretzel.getName());
+        System.out.println("Vending Machine: " + Food.getName());
+        System.out.println("Quantity: " + pretzel.quantity());
+        System.out.println("Total Cost : " + pretzel.totalCost(pretzel.quantity()));
+
+        System.out.println("Snack: " + soda.getName());
+        System.out.println("Vending Machine: " + Drink.getName());
+        System.out.println("Quantity: " + soda.quantity());
+        System.out.println("Total Cost : " + soda.totalCost(soda.quantity()));
+
+        System.out.println("Snack: " + water.getName());
+        System.out.println("Vending Machine: " + Drink.getName());
+        System.out.println("Quantity: " + water.quantity());
+        System.out.println("Total Cost : " + water.totalCost(water.quantity()));
+
     }
 
     public static void main(String[] args) {
